@@ -12,13 +12,18 @@
           <li style="float:right"><a href="#promo">History Bookings</a></li>
         </ul>
       </div>
-      
-      <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-      </form>
+      <div class="container">
+        <form class="form-inline" >
+          <input type="text" id="email" placeholder="From" name="email">
+          <input type="password" id="pwd" placeholder="To" name="pswd">
+          <input type="datetime-local" id="email" placeholder="Depart Date" name="email">
+          <input type="datetime-local" id="pwd" placeholder="Return Dates" name="pswd">
+          <!-- <label>
+          <input type="checkbox" name="remember"> Remember me
+          </label> -->
+          <button type="submit" >Search</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
