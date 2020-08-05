@@ -68,14 +68,20 @@ body{
 }
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
+}
+.header{
+  margin-top: 80px;
+  text-align: center;
+  font-family: Arial Narrow Bold;
+  font-size: 20;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+  padding-right: 100px;
 }
 
 .container{
@@ -83,10 +89,7 @@ body{
   /* background-image: url(https://images.pexels.com/photos/1309644/pexels-photo-1309644.jpeg?cs=srgb&dl=pexels-sourav-mishra-1309644.jpg&fm=jpg);
   background-size: auto; */
 }
-/* .image-box{
-  background-color: red;
-  text-align: center;
-} */
+
 .centered {
   position: absolute;
   top: 50%;
