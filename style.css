@@ -62,10 +62,13 @@ li a:hover {
     align-items: stretch;
   }
 }
-/* body{
-  background-image: url(./images/pexels-pixabay-62623)
-} */
+body{
+  background-image: url(https://images.pexels.com/photos/723240/pexels-photo-723240.jpeg?cs=srgb&dl=pexels-anugrah-lohiya-723240.jpg&fm=jpg);
+  background-size: 1200px;
+}
 
 .container{
   margin-top: 100px;
+  background-image: url(https://images.pexels.com/photos/1309644/pexels-photo-1309644.jpeg?cs=srgb&dl=pexels-sourav-mishra-1309644.jpg&fm=jpg);
+  background-size: auto;
 }
