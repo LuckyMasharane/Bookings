@@ -1,14 +1,18 @@
 h1, h2 {
   font-family: Lato;
 }
-ul {
+#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 li {
   float: left;
 }

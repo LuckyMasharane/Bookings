@@ -6,7 +6,7 @@
   <body>
     <div id="app">
       <div>
-        <ul>
+        <ul id="navbar">
           <li><a href="#home">Home</a></li>
           <li style="float:right"><a href="#about">About</a></li>
           <li style="float:right"><a href="#login">Login</a></li>
@@ -40,7 +40,7 @@
               <div class="cardcont">
                 <h4 style="color:blue"><b>Johannesburg(JNB) to Paris(CDG)</b></h4>
                 <p style="font-style: italic">SAA Airline</p>
-                <p style="color:green"><b>R 12,500.00 One Way Trip</b></p>
+                <p style="color:green"><b>R 10,500.00 One Way Trip</b></p>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <div class="cardcont">
                 <h4 style="color:blue"><b>Johannesburg(JNB) to London</b></h4>
                 <p style="font-style: italic">Emirates Airline</p>
-                <p style="color:green"><b>R 12,500.00 One Way Trip</b></p>
+                <p style="color:green"><b>R 13,500.00 One Way Trip</b></p>
               </div>
             </div>
           </div>
@@ -83,4 +83,18 @@
       </div>
     </div>
   </body>
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
 </html>
