@@ -26,9 +26,10 @@ li a:hover {
 }
 
 .form-inline {
-  display: flex;
+  display: inline;
   flex-flow: row wrap;
   align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .form-inline label {
@@ -62,10 +63,7 @@ li a:hover {
     align-items: stretch;
   }
 }
-body{
-  /* background-image: url(https://images.pexels.com/photos/723240/pexels-photo-723240.jpeg?cs=srgb&dl=pexels-anugrah-lohiya-723240.jpg&fm=jpg); */
-  background-size: 1200px;
-}
+
 .column {
   float: left;
   width: 25%;
@@ -86,8 +84,8 @@ body{
 
 .container{
   margin-top: 100px;
-  /* background-image: url(https://images.pexels.com/photos/1309644/pexels-photo-1309644.jpeg?cs=srgb&dl=pexels-sourav-mishra-1309644.jpg&fm=jpg);
-  background-size: auto; */
+  box-shadow: 12px 8px 12px 8px rgba(0,0,0,0.2);
+  text-align: center;
 }
 
 .centered {
@@ -98,13 +96,13 @@ body{
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 12px 8px 12px 8px rgba(0,0,0,0.2);
   transition: 0.3s;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 20px 10px 20px 0 rgba(0,0,0,1);
 }
-.container {
+.cardcont {
   padding: 2px 16px;
 }
